@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB7E293820E0A05200AB2352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E293720E0A05200AB2352 /* AppDelegate.m */; };
+		AB7E293B20E0A05200AB2352 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E293A20E0A05200AB2352 /* ViewController.m */; };
+		AB7E293E20E0A05200AB2352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E293C20E0A05200AB2352 /* Main.storyboard */; };
+		AB7E294020E0A05300AB2352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7E293F20E0A05300AB2352 /* Assets.xcassets */; };
+		AB7E294320E0A05300AB2352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7E294120E0A05300AB2352 /* LaunchScreen.storyboard */; };
+		AB7E294620E0A05300AB2352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E294520E0A05300AB2352 /* main.m */; };
+		AB7E295020E0A05300AB2352 /* GFSegmentSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E294F20E0A05300AB2352 /* GFSegmentSwitchTests.m */; };
+		AB7E295B20E0A05300AB2352 /* GFSegmentSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E295A20E0A05300AB2352 /* GFSegmentSwitchUITests.m */; };
+		AB7E297420E0A08200AB2352 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E296A20E0A08200AB2352 /* UIView+ViewController.m */; };
+		AB7E297520E0A08200AB2352 /* UIView+EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E296D20E0A08200AB2352 /* UIView+EasyFrame.m */; };
+		AB7E297620E0A08200AB2352 /* GFSegmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E297020E0A08200AB2352 /* GFSegmentManager.m */; };
+		AB7E297720E0A08200AB2352 /* GFSegmentHead.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E297220E0A08200AB2352 /* GFSegmentHead.m */; };
+		AB7E297820E0A08200AB2352 /* GFSegmentScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E297320E0A08200AB2352 /* GFSegmentScroll.m */; };
+		AB7E297C20E0BCA800AB2352 /* FengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7E297A20E0BCA800AB2352 /* FengViewController.m */; };
+		AB7E297D20E0BCA800AB2352 /* FengViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB7E297B20E0BCA800AB2352 /* FengViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB7E294C20E0A05300AB2352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7E292B20E0A05200AB2352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7E293220E0A05200AB2352;
+			remoteInfo = GFSegmentSwitch;
+		};
+		AB7E295720E0A05300AB2352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB7E292B20E0A05200AB2352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7E293220E0A05200AB2352;
+			remoteInfo = GFSegmentSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB7E293320E0A05200AB2352 /* GFSegmentSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFSegmentSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E293620E0A05200AB2352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB7E293720E0A05200AB2352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB7E293920E0A05200AB2352 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB7E293A20E0A05200AB2352 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB7E293D20E0A05200AB2352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7E293F20E0A05300AB2352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7E294220E0A05300AB2352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB7E294420E0A05300AB2352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E294520E0A05300AB2352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB7E294B20E0A05300AB2352 /* GFSegmentSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFSegmentSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E294F20E0A05300AB2352 /* GFSegmentSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFSegmentSwitchTests.m; sourceTree = "<group>"; };
+		AB7E295120E0A05300AB2352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E295620E0A05300AB2352 /* GFSegmentSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFSegmentSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7E295A20E0A05300AB2352 /* GFSegmentSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GFSegmentSwitchUITests.m; sourceTree = "<group>"; };
+		AB7E295C20E0A05300AB2352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E296920E0A08200AB2352 /* GFSegmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSegmentManager.h; sourceTree = "<group>"; };
+		AB7E296A20E0A08200AB2352 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		AB7E296B20E0A08200AB2352 /* GFSegmentScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSegmentScroll.h; sourceTree = "<group>"; };
+		AB7E296C20E0A08200AB2352 /* GFSegmentHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFSegmentHead.h; sourceTree = "<group>"; };
+		AB7E296D20E0A08200AB2352 /* UIView+EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyFrame.m"; sourceTree = "<group>"; };
+		AB7E296E20E0A08200AB2352 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		AB7E296F20E0A08200AB2352 /* GFPageHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFPageHead.h; sourceTree = "<group>"; };
+		AB7E297020E0A08200AB2352 /* GFSegmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSegmentManager.m; sourceTree = "<group>"; };
+		AB7E297120E0A08200AB2352 /* UIView+EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyFrame.h"; sourceTree = "<group>"; };
+		AB7E297220E0A08200AB2352 /* GFSegmentHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSegmentHead.m; sourceTree = "<group>"; };
+		AB7E297320E0A08200AB2352 /* GFSegmentScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFSegmentScroll.m; sourceTree = "<group>"; };
+		AB7E297920E0BCA800AB2352 /* FengViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FengViewController.h; sourceTree = "<group>"; };
+		AB7E297A20E0BCA800AB2352 /* FengViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FengViewController.m; sourceTree = "<group>"; };
+		AB7E297B20E0BCA800AB2352 /* FengViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FengViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7E293020E0A05200AB2352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E294820E0A05300AB2352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E295320E0A05300AB2352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB7E292A20E0A05200AB2352 = {
+			isa = PBXGroup;
+			children = (
+				AB7E293520E0A05200AB2352 /* GFSegmentSwitch */,
+				AB7E294E20E0A05300AB2352 /* GFSegmentSwitchTests */,
+				AB7E295920E0A05300AB2352 /* GFSegmentSwitchUITests */,
+				AB7E293420E0A05200AB2352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7E293420E0A05200AB2352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E293320E0A05200AB2352 /* GFSegmentSwitch.app */,
+				AB7E294B20E0A05300AB2352 /* GFSegmentSwitchTests.xctest */,
+				AB7E295620E0A05300AB2352 /* GFSegmentSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7E293520E0A05200AB2352 /* GFSegmentSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E296820E0A08200AB2352 /* TabBtnCode */,
+				AB7E293620E0A05200AB2352 /* AppDelegate.h */,
+				AB7E293720E0A05200AB2352 /* AppDelegate.m */,
+				AB7E293920E0A05200AB2352 /* ViewController.h */,
+				AB7E293A20E0A05200AB2352 /* ViewController.m */,
+				AB7E297920E0BCA800AB2352 /* FengViewController.h */,
+				AB7E297A20E0BCA800AB2352 /* FengViewController.m */,
+				AB7E297B20E0BCA800AB2352 /* FengViewController.xib */,
+				AB7E293C20E0A05200AB2352 /* Main.storyboard */,
+				AB7E293F20E0A05300AB2352 /* Assets.xcassets */,
+				AB7E294120E0A05300AB2352 /* LaunchScreen.storyboard */,
+				AB7E294420E0A05300AB2352 /* Info.plist */,
+				AB7E294520E0A05300AB2352 /* main.m */,
+			);
+			path = GFSegmentSwitch;
+			sourceTree = "<group>";
+		};
+		AB7E294E20E0A05300AB2352 /* GFSegmentSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E294F20E0A05300AB2352 /* GFSegmentSwitchTests.m */,
+				AB7E295120E0A05300AB2352 /* Info.plist */,
+			);
+			path = GFSegmentSwitchTests;
+			sourceTree = "<group>";
+		};
+		AB7E295920E0A05300AB2352 /* GFSegmentSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E295A20E0A05300AB2352 /* GFSegmentSwitchUITests.m */,
+				AB7E295C20E0A05300AB2352 /* Info.plist */,
+			);
+			path = GFSegmentSwitchUITests;
+			sourceTree = "<group>";
+		};
+		AB7E296820E0A08200AB2352 /* TabBtnCode */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E296F20E0A08200AB2352 /* GFPageHead.h */,
+				AB7E296C20E0A08200AB2352 /* GFSegmentHead.h */,
+				AB7E297220E0A08200AB2352 /* GFSegmentHead.m */,
+				AB7E296B20E0A08200AB2352 /* GFSegmentScroll.h */,
+				AB7E297320E0A08200AB2352 /* GFSegmentScroll.m */,
+				AB7E296920E0A08200AB2352 /* GFSegmentManager.h */,
+				AB7E297020E0A08200AB2352 /* GFSegmentManager.m */,
+				AB7E296E20E0A08200AB2352 /* UIView+ViewController.h */,
+				AB7E296A20E0A08200AB2352 /* UIView+ViewController.m */,
+				AB7E297120E0A08200AB2352 /* UIView+EasyFrame.h */,
+				AB7E296D20E0A08200AB2352 /* UIView+EasyFrame.m */,
+			);
+			path = TabBtnCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7E293220E0A05200AB2352 /* GFSegmentSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7E295F20E0A05300AB2352 /* Build configuration list for PBXNativeTarget "GFSegmentSwitch" */;
+			buildPhases = (
+				AB7E292F20E0A05200AB2352 /* Sources */,
+				AB7E293020E0A05200AB2352 /* Frameworks */,
+				AB7E293120E0A05200AB2352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFSegmentSwitch;
+			productName = GFSegmentSwitch;
+			productReference = AB7E293320E0A05200AB2352 /* GFSegmentSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB7E294A20E0A05300AB2352 /* GFSegmentSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7E296220E0A05300AB2352 /* Build configuration list for PBXNativeTarget "GFSegmentSwitchTests" */;
+			buildPhases = (
+				AB7E294720E0A05300AB2352 /* Sources */,
+				AB7E294820E0A05300AB2352 /* Frameworks */,
+				AB7E294920E0A05300AB2352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7E294D20E0A05300AB2352 /* PBXTargetDependency */,
+			);
+			name = GFSegmentSwitchTests;
+			productName = GFSegmentSwitchTests;
+			productReference = AB7E294B20E0A05300AB2352 /* GFSegmentSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB7E295520E0A05300AB2352 /* GFSegmentSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7E296520E0A05300AB2352 /* Build configuration list for PBXNativeTarget "GFSegmentSwitchUITests" */;
+			buildPhases = (
+				AB7E295220E0A05300AB2352 /* Sources */,
+				AB7E295320E0A05300AB2352 /* Frameworks */,
+				AB7E295420E0A05300AB2352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB7E295820E0A05300AB2352 /* PBXTargetDependency */,
+			);
+			name = GFSegmentSwitchUITests;
+			productName = GFSegmentSwitchUITests;
+			productReference = AB7E295620E0A05300AB2352 /* GFSegmentSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7E292B20E0A05200AB2352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = north_feng;
+				TargetAttributes = {
+					AB7E293220E0A05200AB2352 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					AB7E294A20E0A05300AB2352 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AB7E293220E0A05200AB2352;
+					};
+					AB7E295520E0A05300AB2352 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = AB7E293220E0A05200AB2352;
+					};
+				};
+			};
+			buildConfigurationList = AB7E292E20E0A05200AB2352 /* Build configuration list for PBXProject "GFSegmentSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7E292A20E0A05200AB2352;
+			productRefGroup = AB7E293420E0A05200AB2352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7E293220E0A05200AB2352 /* GFSegmentSwitch */,
+				AB7E294A20E0A05300AB2352 /* GFSegmentSwitchTests */,
+				AB7E295520E0A05300AB2352 /* GFSegmentSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7E293120E0A05200AB2352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E294320E0A05300AB2352 /* LaunchScreen.storyboard in Resources */,
+				AB7E294020E0A05300AB2352 /* Assets.xcassets in Resources */,
+				AB7E297D20E0BCA800AB2352 /* FengViewController.xib in Resources */,
+				AB7E293E20E0A05200AB2352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E294920E0A05300AB2352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E295420E0A05300AB2352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7E292F20E0A05200AB2352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E297C20E0BCA800AB2352 /* FengViewController.m in Sources */,
+				AB7E297620E0A08200AB2352 /* GFSegmentManager.m in Sources */,
+				AB7E297720E0A08200AB2352 /* GFSegmentHead.m in Sources */,
+				AB7E293B20E0A05200AB2352 /* ViewController.m in Sources */,
+				AB7E297820E0A08200AB2352 /* GFSegmentScroll.m in Sources */,
+				AB7E297420E0A08200AB2352 /* UIView+ViewController.m in Sources */,
+				AB7E297520E0A08200AB2352 /* UIView+EasyFrame.m in Sources */,
+				AB7E294620E0A05300AB2352 /* main.m in Sources */,
+				AB7E293820E0A05200AB2352 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E294720E0A05300AB2352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E295020E0A05300AB2352 /* GFSegmentSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7E295220E0A05300AB2352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7E295B20E0A05300AB2352 /* GFSegmentSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB7E294D20E0A05300AB2352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7E293220E0A05200AB2352 /* GFSegmentSwitch */;
+			targetProxy = AB7E294C20E0A05300AB2352 /* PBXContainerItemProxy */;
+		};
+		AB7E295820E0A05300AB2352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7E293220E0A05200AB2352 /* GFSegmentSwitch */;
+			targetProxy = AB7E295720E0A05300AB2352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB7E293C20E0A05200AB2352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7E293D20E0A05200AB2352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7E294120E0A05300AB2352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7E294220E0A05300AB2352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7E295D20E0A05300AB2352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB7E295E20E0A05300AB2352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7E296020E0A05300AB2352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN2Z387HMN;
+				INFOPLIST_FILE = GFSegmentSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.north-feng.GFSegmentSwitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7E296120E0A05300AB2352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN2Z387HMN;
+				INFOPLIST_FILE = GFSegmentSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.north-feng.GFSegmentSwitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB7E296320E0A05300AB2352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN2Z387HMN;
+				INFOPLIST_FILE = GFSegmentSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.north-feng.GFSegmentSwitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFSegmentSwitch.app/GFSegmentSwitch";
+			};
+			name = Debug;
+		};
+		AB7E296420E0A05300AB2352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN2Z387HMN;
+				INFOPLIST_FILE = GFSegmentSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.north-feng.GFSegmentSwitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFSegmentSwitch.app/GFSegmentSwitch";
+			};
+			name = Release;
+		};
+		AB7E296620E0A05300AB2352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN2Z387HMN;
+				INFOPLIST_FILE = GFSegmentSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.north-feng.GFSegmentSwitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFSegmentSwitch;
+			};
+			name = Debug;
+		};
+		AB7E296720E0A05300AB2352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN2Z387HMN;
+				INFOPLIST_FILE = GFSegmentSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.north-feng.GFSegmentSwitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFSegmentSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7E292E20E0A05200AB2352 /* Build configuration list for PBXProject "GFSegmentSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E295D20E0A05300AB2352 /* Debug */,
+				AB7E295E20E0A05300AB2352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7E295F20E0A05300AB2352 /* Build configuration list for PBXNativeTarget "GFSegmentSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E296020E0A05300AB2352 /* Debug */,
+				AB7E296120E0A05300AB2352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7E296220E0A05300AB2352 /* Build configuration list for PBXNativeTarget "GFSegmentSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E296320E0A05300AB2352 /* Debug */,
+				AB7E296420E0A05300AB2352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7E296520E0A05300AB2352 /* Build configuration list for PBXNativeTarget "GFSegmentSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7E296620E0A05300AB2352 /* Debug */,
+				AB7E296720E0A05300AB2352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7E292B20E0A05200AB2352 /* Project object */;
+}
