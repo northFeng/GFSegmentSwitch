@@ -1,0 +1,2 @@
+# GFSegmentSwitch
+一个常用的头部切换按钮，下面对应scrollView来回切换
